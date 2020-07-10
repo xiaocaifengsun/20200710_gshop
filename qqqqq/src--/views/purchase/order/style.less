@@ -1,0 +1,313 @@
+.dialog{
+    .dash{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 104;
+    }
+    .dialog_main{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #FFF;
+        height: 7.2rem;
+        z-index:105;
+        .header{
+            height: 1rem;
+            line-height: 1rem;
+            font-weight: 400;
+            color: rgba(32, 36, 42, 1);
+            text-align: center;
+            font-size: 0.32rem;
+            border-bottom: 1px solid rgba(233, 235, 239, 1);
+        }
+        .van-icon-cross{
+            position: absolute;
+            left: 0.3rem;
+            top: 0.3rem;
+            font-size: 0.4rem;
+        }
+        .price{
+            color: rgba(32, 36, 42, 1);
+            font-weight: 500;
+            font-size: 0.44rem;
+            text-align: center;
+            padding:0.65rem 0 0.7rem 0;
+            span{
+                font-size:0.3rem;
+            }
+        }
+        .btns{
+            padding: 0 0rem 0 0.3rem;
+            .btn{
+                width: 50%;
+                float: left;
+                text-align: center;
+            padding: 0 0.3rem 0 0;
+                
+                
+                span{
+                   
+                    display: block;
+                    height: 0.86rem;
+                    line-height: 0.86rem;
+                    color:#7F7F81;
+                    border:1px solid #DBDADD;
+                }
+            }
+            .btn1{
+                span{
+                    color:#246FFC;
+                    border:1px solid #246FFC;
+                }
+            }
+        
+        }
+        .btn3{
+            margin: 2.2rem 0.3rem 0;
+            background: #3388ff;
+            height: 0.86rem;
+            line-height: 0.86rem;
+            display: block;
+            color: #FFF;
+            font-weight: 400;
+            font-size: 0.32rem;
+            border-radius: 3px;
+            text-align: center;
+        }
+    }
+
+}
+.user {
+    color        : #202328;
+    font-size    : 0.28rem;
+    padding      : 0.2rem 1rem 0.2rem 0.3rem;
+    background   : #fff;
+    margin-bottom: 0.2rem;
+    position     : relative;
+
+    .item {
+        line-height  : 0.45rem;
+        margin-bottom: 0.13rem;
+    }
+
+    .co1 {
+        color: #7d7e80;
+    }
+
+    .user_icon {
+        height  : 0.42rem;
+        width   : 0.18rem;
+        position: absolute;
+        right   : 0.3rem;
+        top     : 50%;
+        margin  : -0.21rem 0 0 0;
+    }
+
+    .address {
+        padding   : 0 0 0 1.5rem;
+        position  : relative;
+        min-height: 0.51rem;
+
+        .co1 {
+            position: absolute;
+            left    : 0;
+            top     : 0;
+        }
+    }
+}
+
+.main {
+    position  : absolute;
+    left      : 0;
+    right     : 0;
+    top       : 0;
+    bottom    : 0;
+    background: #f6f6f6;
+
+    .supplier {
+        line-height     : 0.9rem;
+        background-color: #fff;
+        margin-bottom   : 0.2rem;
+        padding         : 0 0.3rem;
+        font-weight     : 600;
+    }
+}
+
+.order {
+    background   : #fff;
+    padding      : 0 0.3rem;
+    margin-bottom: 0.2rem;
+
+    .title {
+        border-bottom: 1px solid #e9ebef;
+        color        : #202328;
+        font-size    : 0.32rem;
+        height       : 0.9rem;
+        line-height  : 0.9rem;
+        font-weight  : 700;
+        position     : relative;
+
+        .strain {
+            position   : absolute;
+            right      : 0rem;
+            top        : 0.22rem;
+            font-size  : 0.26rem;
+            color      : #949596;
+            height     : 0.5rem;
+            line-height: 0.5rem;
+            font-weight: 300;
+        }
+    }
+
+    .order_item {
+        border-bottom: 1px solid #e9ebef;
+    }
+
+    .items {
+        padding   : 0.3rem 0rem 0.1rem 0rem;
+        position  : relative;
+        background: #fff;
+
+        .item1 {
+            width : 1.2rem;
+            height: 1.2rem;
+            float : left;
+
+            img {
+                height    : 100%;
+                height    : 100%;
+            }
+        }
+
+        .item2 {
+            position: absolute;
+            left    : 1.4rem;
+            top     : 0.3rem;
+            right   : 2.35rem;
+        }
+
+        .item3 {
+            position: absolute;
+            left    : 4.7rem;
+            top     : 0.3rem;
+            right   : 0rem;
+        }
+
+        .p1 {
+            color        : #202328;
+            font-size    : 0.28rem;
+            line-height  : 0.42rem;
+            margin-bottom: 0.05rem;
+        }
+
+        .p2 {
+            font-size  : 0.24rem;
+            color      : #949596;
+            line-height: 0.4rem;
+        }
+
+        .p3 {
+            font-size    : 0.28rem;
+            color        : #202328;
+            text-align   : right;
+            line-height  : 0.42rem;
+            margin-bottom: 0.05rem;
+        }
+
+        .p4 {
+            color      : #949596;
+            font-size  : 0.24rem;
+            text-align : right;
+            line-height: 0.45rem;
+        }
+
+        .p5 {
+            color     : #949596;
+            font-size : 0.24rem;
+            text-align: right;
+        }
+    }
+
+    .footer {
+        padding   : 0.1rem 0 0.25rem 0;
+        text-align: right;
+        color     : #202328;
+    }
+
+    .footer_inp {
+        height     : 1rem;
+        line-height: 1rem;
+        font-size  : 0.28rem;
+    }
+
+    .footer_inp ::-webkit-input-placeholder {
+        color    : #cecece;
+        font-size: 0.28rem;
+    }
+
+    .state {
+        display    : flex;
+        border-top : 1px solid #e9ebef;
+        height     : 1rem;
+        line-height: 1rem;
+        font-size  : 0.28rem;
+
+        .co1 {
+            width: 1.4rem;
+        }
+
+        .co2 {
+            flex      : 1;
+            text-align: right;
+
+        }
+    }
+}
+
+.footer_btn {
+    position   : fixed;
+    left       : 0;
+    right      : 0;
+    bottom     : 0;
+    height     : 1.02rem;
+    padding    : 0 2.2rem 0 0.3rem;
+    z-index    : 103;
+    line-height: 1rem;
+    font-size  : 0.34rem;
+    color      : #000000;
+    background : #fff;
+    border-top : 1px solid #dde1e5;
+
+    .text {
+        font-size: 0.24rem;
+        color    : #606264;
+    }
+
+    .btn {
+        background : #2c7afe;
+        font-size  : 0.32rem;
+        text-align : center;
+        line-height: 1rem;
+        height     : 1.02rem;
+        color      : #fff;
+        width      : 2.2rem;
+        position   : absolute;
+        right      : 0;
+        top        : 0;
+    }
+
+    .money {
+        font-size     : 0.34rem;
+        color         : #E90000;
+        vertical-align: -0.01rem;
+    }
+
+    .p1 {
+        color: #E90000;
+    }
+}

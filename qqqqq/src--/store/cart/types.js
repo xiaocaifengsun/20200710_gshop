@@ -1,0 +1,9 @@
+export const GOODLIST = "su_goodlist";//购物车商品列表
+export const SET_GOODLIST = "setGoodlist";//更新商品列表
+export const CATEGORY_COUNT = "su_categoryCount";//品类数量
+export const TOTAL_COUNT = "su_totalCount";//商品总数量
+export const TOTAL_AMOUNT = "su_totalAmount";//总金额
+export const REMOVE = "removeGoods";//移除商品,传 true 移除所有,传 数组 移除指定商品
+export const UPDATE = "updateGood";//更新某一个商品
+export const ADD = "addGood";//添加商品
+export const ADDORREPLACE = "addOrReplaceGood";//商品不存在进行添加，存在进行替换
